@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|solutionrelative:foodapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|d:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\foodapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|solutionrelative:foodapp\\foodapp.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|d:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|solutionrelative:foodapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|d:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|solutionrelative:foodapp\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|d:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\data\\fooddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|solutionrelative:foodapp\\data\\fooddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|d:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|solutionrelative:foodapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8178A05C-2177-4003-AB81-A711C565B162}|foodapp\\foodapp.csproj|d:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\foodapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "foodapp.http",
+              "DocumentMoniker": "D:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\foodapp.http",
+              "RelativeDocumentMoniker": "foodapp\\foodapp.http",
+              "ToolTip": "D:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\foodapp.http",
+              "RelativeToolTip": "foodapp\\foodapp.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-06-19T16:34:38.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\appsettings.json",
               "RelativeDocumentMoniker": "foodapp\\appsettings.json",
@@ -51,20 +68,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MenuController.cs",
               "DocumentMoniker": "D:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\Controllers\\MenuController.cs",
               "RelativeDocumentMoniker": "foodapp\\Controllers\\MenuController.cs",
               "ToolTip": "D:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\Controllers\\MenuController.cs",
               "RelativeToolTip": "foodapp\\Controllers\\MenuController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAowHAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T16:09:30.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T16:09:30.118Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FoodDbContext.cs",
               "DocumentMoniker": "D:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\Data\\FoodDbContext.cs",
               "RelativeDocumentMoniker": "foodapp\\Data\\FoodDbContext.cs",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "foodapp\\Data\\FoodDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T16:08:19.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T16:08:19.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MenuItem.cs",
               "DocumentMoniker": "D:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\Models\\MenuItem.cs",
               "RelativeDocumentMoniker": "foodapp\\Models\\MenuItem.cs",
@@ -85,8 +100,7 @@
               "RelativeToolTip": "foodapp\\Models\\MenuItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T16:07:00.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T16:07:00.447Z"
             },
             {
               "$type": "Document",
@@ -96,23 +110,22 @@
               "RelativeDocumentMoniker": "foodapp\\Program.cs",
               "ToolTip": "D:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\Program.cs",
               "RelativeToolTip": "foodapp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-19T16:05:48.119Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "foodapp",
+              "DocumentIndex": 5,
+              "Title": "foodapp.csproj",
               "DocumentMoniker": "D:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\foodapp.csproj",
               "RelativeDocumentMoniker": "foodapp\\foodapp.csproj",
               "ToolTip": "D:\\flutter apps\\foodie\\backend\\foodapp\\foodapp\\foodapp.csproj",
               "RelativeToolTip": "foodapp\\foodapp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-19T16:05:43.781Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T16:05:43.781Z"
             }
           ]
         }

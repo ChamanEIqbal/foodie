@@ -1,4 +1,4 @@
-using foodapp.Data; 
+﻿using foodapp.Data; 
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -40,9 +40,10 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-app.MapControllers();
 
 app.UseCors("AllowAll");
+app.MapControllers();
 
-app.Run();
+
+app.Run("http://localhost:5000");
 
