@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "5w4QHIItJF7/OpoAt2nJohZwlpHHlue2c4ivY3qX49A=",
+  "Source": "foodapp",
+  "BasePath": "_content/foodapp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

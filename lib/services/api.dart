@@ -3,10 +3,10 @@ import 'package:http/http.dart' as http;
 import 'package:foodie/models/menu_item.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:5000/api';
+  static const String baseUrl = 'http://localhost:5000/api/menu';
 
   static Future<List<MenuItem>> getMenuItems() async {
-    final res = await http.get(Uri.parse('$baseUrl/menu'));
+    final res = await http.get(Uri.parse(baseUrl));
 
     if (res.statusCode == 200) {
       final List<dynamic> data = jsonDecode(res.body);
@@ -18,7 +18,7 @@ class ApiService {
 
   static Future<void> addMenuItem(MenuItem item) async {
     final res = await http.post(
-      Uri.parse('$baseUrl/menu'),
+      Uri.parse(baseUrl),
       headers: {'Content-Type': 'application/json'},
       body: jsonEncode(item.toJson()),
     );
@@ -29,8 +29,10 @@ class ApiService {
   }
 
   static Future<void> updateMenuItem(MenuItem item) async {
+    if (item.id == null) throw Exception('MenuItem ID is required');
+
     final res = await http.put(
-      Uri.parse('$baseUrl/menu/${item.title}'),
+      Uri.parse('$baseUrl/${item.id}'),
       headers: {'Content-Type': 'application/json'},
       body: jsonEncode(item.toJson()),
     );
@@ -40,17 +42,17 @@ class ApiService {
     }
   }
 
-  static Future<void> deleteMenuItem(String itemTitle) async {
-    final res = await http.delete(Uri.parse('$baseUrl/menu/$itemTitle'));
+  static Future<void> deleteMenuItem(int id) async {
+    final res = await http.delete(Uri.parse('$baseUrl/$id'));
 
     if (res.statusCode != 200) {
       throw Exception('Failed to delete menu item');
     }
   }
 
-  static Future<void> addSubItem(String menuItemId, SubItem subItem) async {
+  static Future<void> addSubItem(int menuItemId, SubItem subItem) async {
     final res = await http.post(
-      Uri.parse('$baseUrl/menu/$menuItemId/subitem'),
+      Uri.parse('$baseUrl/$menuItemId/subitem'),
       headers: {'Content-Type': 'application/json'},
       body: jsonEncode(subItem.toJson()),
     );
@@ -61,12 +63,12 @@ class ApiService {
   }
 
   static Future<void> updateSubItem(
-    String menuItemId,
-    String subItemId,
+    int menuItemId,
+    int subItemId,
     SubItem subItem,
   ) async {
     final res = await http.put(
-      Uri.parse('$baseUrl/menu/$menuItemId/subitem/$subItemId'),
+      Uri.parse('$baseUrl/$menuItemId/subitem/$subItemId'),
       headers: {'Content-Type': 'application/json'},
       body: jsonEncode(subItem.toJson()),
     );
@@ -76,9 +78,9 @@ class ApiService {
     }
   }
 
-  static Future<void> deleteSubItem(String menuItemId, String subItemId) async {
+  static Future<void> deleteSubItem(int menuItemId, int subItemId) async {
     final res = await http.delete(
-      Uri.parse('$baseUrl/menu/$menuItemId/subitem/$subItemId'),
+      Uri.parse('$baseUrl/$menuItemId/subitem/$subItemId'),
     );
 
     if (res.statusCode != 200) {
